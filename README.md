@@ -166,7 +166,11 @@
 
 ## 结构详细设计
 
-所有STL格式输出文件，都放置在`shell/stl`目录下：
+设计文件共享地址：
+
+- 通用扩展盒：http://a360.co/2HdUN1z
+
+STL格式输出文件，放置在`shell/stl`目录下：
 
 - 通用扩展盒：https://github.com/xboot/xconch/blob/master/shell/stl/xconch-extended-box.stl
 
