@@ -8,6 +8,10 @@
 
 ![xconch-introduced ](https://github.com/xboot/xconch/raw/master/documents/images/xconch-introduced.png)
 
+![xconch-extended-box-large-pcb](https://github.com/xboot/xconch/raw/master/documents/images/xconch-extended-box-large-pcb.png)
+
+ ![xconch-extended-box-mini-pcb](https://github.com/xboot/xconch/raw/master/documents/images/xconch-extended-box-mini-pcb.png)
+
 ## 名称的由来
 
 神奇海螺，源自网友`word天`lymz@foxmail.com(QQ928882442)的网名，只因在激烈的项目取名讨论中，一张惊天图片，高逼格的意境，贴合式奶骑，迅速定论，结束了还在`一个完全开源的，未知项目名称的，有着炫酷外观及超强堆叠扩展性的装逼DIY套件`简介中的混沌态。
@@ -93,11 +97,23 @@
 
 迷你板型尺寸如下:
 
+![Mini-PCB-DXF](https://github.com/xboot/xconch/raw/master/documents/images/Mini-PCB-DXF.png)
+
 完整板型尺寸如下：
+
+![Large-PCB-DXF](https://github.com/xboot/xconch/raw/master/documents/images/Large-PCB-DXF.png)
+
+## 板对板连接器
+
+板对板连接器，采用1.27间距，双排80PIN贴片排针及排母，正面采用排针，背面为排母，详细规格如下：
+
+![PinHeader_2x40_P127mm_Vertical_SMD](https://github.com/xboot/xconch/raw/master/documents/images/PinHeader_2x40_P127mm_Vertical_SMD.png)
+
+![PinSocket_2x40_P127mm_Vertical_SMD](https://github.com/xboot/xconch/raw/master/documents/images/PinSocket_2x40_P127mm_Vertical_SMD.png)
 
 ### 堆叠扩展口描述
 
-堆叠扩展口采用1.27间距，双排80PIN贴片排针排母，正面为排针，背面为排母。需布局在PCB的堆叠扩展位，以实现上下无限堆叠扩展。80PIN管脚，分为两个区域，一个50PIN的强制兼容区，另一个30PIN的非兼容扩展区，这样的设计既保证了堆叠的兼容性，又增强了扩展的灵活性。这也就意味着，如果需要设计一款通用扩展盒，就必须通过50PIN强制兼容区来扩展，反过来说，只要能称之为通用扩展盒的就一定是任何平台兼容的，如果一个CPU有很多特别的功能管脚需要引出，而这些信号并不在50PIN通用扩展区，这就必须通过30PIN扩展区来扩展了，扩展区不要求兼容，依据主控CPU自身的资源特点自行设计，当然基于30PIN扩展区扩展出来就是专用扩展盒了，专用扩展盒只能用于特定平台，不具有任何兼容性。通用扩展盒只能使用50PIN强制兼容区，另30PIN非兼容扩展区管脚必须需做悬空处理，专用扩展盒可以使用所有的80PIN扩展管脚。
+堆叠扩展口采用板对板连接器，正面为排针，背面为排母，需布局在PCB的堆叠扩展位，以实现上下无限堆叠扩展。80PIN管脚，分为两个区域，一个50PIN的强制兼容区，另一个30PIN的非兼容扩展区，这样的设计既保证了堆叠的兼容性，又增强了扩展的灵活性。这也就意味着，如果需要设计一款通用扩展盒，就必须通过50PIN强制兼容区来扩展，反过来说，只要能称之为通用扩展盒的就一定是任何平台兼容的，如果一个CPU有很多特别的功能管脚需要引出，而这些信号并不在50PIN通用扩展区，这就必须通过30PIN扩展区来扩展了，扩展区不要求兼容，依据主控CPU自身的资源特点自行设计，当然基于30PIN扩展区扩展出来就是专用扩展盒了，专用扩展盒只能用于特定平台，不具有任何兼容性。通用扩展盒只能使用50PIN强制兼容区，另30PIN非兼容扩展区管脚必须需做悬空处理，专用扩展盒可以使用所有的80PIN扩展管脚。
 
 ### 强制兼容区50PIN信号定义
 
@@ -150,10 +166,15 @@
 
 ## 结构详细设计
 
+所有STL格式输出文件，都放置在`shell/stl`目录下：
+
+- 通用扩展盒：https://github.com/xboot/xconch/blob/master/shell/stl/xconch-extended-box.stl
+
+
 ## 硬件详细设计
 
 ## 神奇海螺首页地址
 https://github.com/xboot/xconch
-  
+
 ## 讨论组，大佬聚集，请踊跃加入
 神奇海螺QQ群：[658250248](https://jq.qq.com/?_wv=1027&k=5BOkXYO) (2000人)
