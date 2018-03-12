@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP xconch_pinheader_2x40
+D xconch pinheader connect 2x40
+K connect
+F ~
+$ENDCMP
+#
+$CMP xconch_pinsocket_2x40
+D xconch pinsocket connect 2x40
+K connect
+F ~
+$ENDCMP
+#
+#End Doc Library
