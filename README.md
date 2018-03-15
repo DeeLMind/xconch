@@ -130,32 +130,32 @@ TBD
 ### 强制兼容区50PIN信号定义
 
 | 管脚 | 名字     | 管脚 | 名字      |
-| ---- | -------- | ---- | --------- |
-| 1    | BAT+     | 2    | BAT-      |
+| :--- | -------- | ---- | --------- |
+| 1    | BAT+     | 2    | BAT+      |
 | 3    | VCC_5V   | 4    | VCC_5V    |
 | 5    | VCC_3V3  | 6    | VCC_3V3   |
 | 7    | VCC_1V8  | 8    | VCC_1V8   |
-| 9    | GND      | 10   | GND       |
-| 11   | UART_TX  | 12   | UART_RX   |
-| 13   | I2C_SDA  | 14   | I2C_SCL   |
-| 15   | SPI_MOSI | 16   | SPI_CLK   |
-| 17   | SPI_MISO | 18   | SPI_CS    |
-| 19   | USB_D+   | 20   | USB_D-    |
-| 21   | CAN_H    | 22   | CAN_L     |
-| 23   | SDIO_D0  | 24   | SDIO_D1   |
-| 25   | SDIO_D2  | 26   | SDIO_D3   |
-| 27   | SDIO_CMD | 28   | SDIO_CLK  |
-| 29   | I2S_DI   | 30   | I2S_LRCLK |
-| 31   | I2S_DO   | 32   | I2S_CLK   |
-| 33   | PWM0     | 34   | PWM1      |
-| 35   | ADC0     | 36   | ADC1      |
-| 37   | DAC0     | 38   | DAC1      |
-| 39   | GPIO0    | 40   | GPIO1     |
-| 41   | GPIO2    | 42   | GPIO3     |
-| 43   | GPIO4    | 44   | GPIO5     |
-| 45   | GPIO6    | 46   | GPIO7     |
-| 47   | GPIO8    | 48   | GPIO9     |
-| 49   | GND      | 50   | GND       |
+| 9    | VCC_IO   | 10   | VCC_IO    |
+| 11   | GND      | 12   | GND       |
+| 13   | UART_TX  | 14   | UART_RX   |
+| 15   | I2C_SDA  | 16   | I2C_SCL   |
+| 17   | SPI_MOSI | 18   | SPI_CLK   |
+| 19   | SPI_MISO | 20   | SPI_CS    |
+| 21   | SDIO_D0  | 22   | SDIO_D1   |
+| 23   | SDIO_D2  | 24   | SDIO_D3   |
+| 25   | SDIO_CMD | 26   | SDIO_CLK  |
+| 27   | I2S_DI   | 28   | I2S_LRCLK |
+| 29   | I2S_DO   | 30   | I2S_CLK   |
+| 31   | CAN_H    | 32   | CAN_L     |
+| 33   | USB_D+   | 34   | USB_D-    |
+| 35   | PWM0     | 36   | PWM1      |
+| 37   | ADC0     | 38   | ADC1      |
+| 39   | DAC0     | 40   | DAC1      |
+| 41   | GPIO0    | 42   | GPIO1     |
+| 43   | GPIO2    | 44   | GPIO3     |
+| 45   | GPIO4    | 46   | GPIO5     |
+| 47   | GPIO6    | 48   | GPIO7     |
+| 49   | GPIO8    | 50   | GPIO9     |
 
 ### 非兼容扩展区30PIN信号定义
 | 管脚 | 名字 | 管脚 | 名字 |
