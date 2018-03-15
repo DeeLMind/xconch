@@ -9,7 +9,7 @@ F1 "xconch_pinheader_2x40" -50 -2100 50 H V C CNN
 F2 "" -50 2050 50 H I C CNN
 F3 "" -50 2050 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_*
+ xconch_pinheader_2x40
 $ENDFPLIST
 DRAW
 S -550 -1945 -500 -1955 1 1 6 N
@@ -184,7 +184,7 @@ F1 "xconch_pinsocket_2x40" 0 -2050 50 H V C CNN
 F2 "" 0 2050 50 H I C CNN
 F3 "" 0 2050 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_*
+ xconch_pinsocket_2x40
 $ENDFPLIST
 DRAW
 S -500 -1945 -450 -1955 1 1 6 N
