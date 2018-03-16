@@ -1,11 +1,11 @@
-(module xconch_pinheader_2x40 (layer F.Cu) (tedit 59FED6E4)
+(module xconch_pinheader_2x40 (layer F.Cu) (tedit 5AABE8D0)
   (descr "surface-mounted straight pin header, 2x40, 1.27mm pitch, double rows")
   (tags "Surface mounted pin header SMD 2x40 1.27mm double row")
   (attr smd)
-  (fp_text reference REF** (at 0 -26.46) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -26.46) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value PinHeader_2x40_P1.27mm_Vertical_SMD (at 0 26.46) (layer F.Fab)
+  (fp_text value xconch_pinheader_2x40 (at 0 26.46) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -19,7 +19,6 @@
   (fp_line (start -1.765 25.395) (end -1.765 25.46) (layer F.SilkS) (width 0.12))
   (fp_line (start 1.765 -25.46) (end 1.765 -25.395) (layer F.SilkS) (width 0.12))
   (fp_line (start -1.765 -25.46) (end -1.765 -25.395) (layer F.SilkS) (width 0.12))
-  (fp_line (start -3.09 -25.395) (end -1.765 -25.395) (layer F.SilkS) (width 0.12))
   (fp_line (start -1.765 25.46) (end 1.765 25.46) (layer F.SilkS) (width 0.12))
   (fp_line (start -1.765 -25.46) (end 1.765 -25.46) (layer F.SilkS) (width 0.12))
   (fp_line (start 2.75 24.965) (end 1.705 24.965) (layer F.Fab) (width 0.1))
@@ -347,6 +346,8 @@
   (pad 3 smd rect (at -1.95 -23.495) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.95 -24.765) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.95 -24.765) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
+  (pad "" thru_hole circle (at 0.0127 -26.3779) (size 1.6 1.6) (drill 1.4) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 0 26.3398) (size 1.6 1.6) (drill 1.4) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x40_P1.27mm_Vertical_SMD.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
