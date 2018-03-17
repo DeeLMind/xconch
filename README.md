@@ -8,6 +8,8 @@
 
 ![xconch-introduced ](https://github.com/xboot/xconch/raw/master/documents/images/xconch-introduced.png)
 
+项目首页：https://github.com/xboot/xconch
+
 ## 名称的由来
 
 神奇海螺，源自网友`word天`lymz@foxmail.com(QQ928882442)的网名，只因在激烈的项目取名讨论中，一张惊天图片，高逼格的意境，贴合式奶骑，迅速定论，结束了还在`一个完全开源的，未知项目名称的，有着炫酷外观及超强堆叠扩展性的装逼DIY套件`简介中的混沌态。
@@ -178,13 +180,12 @@ TBD
 
 ## 结构详细设计
 
-设计文件共享地址：
+### 通用扩展盒
 
-- 通用扩展盒：https://github.com/xboot/xconch/blob/master/shell/xconch-extended-box.f3d
+- Fusion 360结构源文件：https://github.com/xboot/xconch/blob/master/shell/xconch-extended-box.f3d
 
-STL格式输出文件，放置在`shell/stl`目录下：
 
-- 通用扩展盒：https://github.com/xboot/xconch/blob/master/shell/stl/xconch-extended-box.stl
+- 3D打印STL格式输出文件：https://github.com/xboot/xconch/blob/master/shell/stl/xconch-extended-box.stl
 
 ## 硬件详细设计
 
@@ -194,11 +195,10 @@ STL格式输出文件，放置在`shell/stl`目录下：
 
 ![ebox-i2c-eeprom-bottom](https://github.com/xboot/xconch/raw/master/documents/images/ebox-i2c-eeprom-bottom.png)
 
+- 工程目录: https://github.com/xboot/xconch/tree/master/ebox-i2c-eeprom
 - 原理图：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.pdf
-
-## 神奇海螺相关链接
-
-- 项目首页：https://github.com/xboot/xconch
+- PCB文件：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.kicad_pcb
+- BOM表：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.csv
 
 ## 讨论组，大佬聚集，请踊跃加入
 神奇海螺QQ群：[658250248](https://jq.qq.com/?_wv=1027&k=5BOkXYO) (2000人)
