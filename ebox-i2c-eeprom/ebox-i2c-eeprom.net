@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\workspcace\xconch\ebox-i2c-eeprom\ebox-i2c-eeprom.sch)
-    (date "2018/3/16 22:31:13")
+    (date "2018/3/17 21:47:53")
     (tool "Eeschema (5.0.0-rc2-dev-107-g49486b83b)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

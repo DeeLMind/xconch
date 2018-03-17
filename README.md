@@ -180,16 +180,24 @@ TBD
 
 设计文件共享地址：
 
-- 通用扩展盒：http://a360.co/2HdUN1z
+- 通用扩展盒：https://github.com/xboot/xconch/blob/master/shell/xconch-extended-box.f3d
 
 STL格式输出文件，放置在`shell/stl`目录下：
 
 - 通用扩展盒：https://github.com/xboot/xconch/blob/master/shell/stl/xconch-extended-box.stl
 
-
 ## 硬件详细设计
 
+### I2C EEPROM非易失性存储器扩展盒
+
+![ebox-i2c-eeprom-top](https://github.com/xboot/xconch/raw/master/documents/images/ebox-i2c-eeprom-top.png)
+
+![ebox-i2c-eeprom-bottom](https://github.com/xboot/xconch/raw/master/documents/images/ebox-i2c-eeprom-bottom.png)
+
+- 原理图：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.pdf
+
 ## 神奇海螺相关链接
+
 - 项目首页：https://github.com/xboot/xconch
 
 ## 讨论组，大佬聚集，请踊跃加入
