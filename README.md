@@ -200,5 +200,16 @@ TBD
 - PCB文件：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.kicad_pcb
 - BOM表：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.csv
 
+### GPIO LED扩展盒
+
+![ebox-gpio-led-top](https://github.com/xboot/xconch/raw/master/documents/images/ebox-gpio-led-top.png)
+
+![ebox-gpio-led-bottom](https://github.com/xboot/xconch/raw/master/documents/images/ebox-gpio-led-bottom.png)
+
+- 工程目录: https://github.com/xboot/xconch/tree/master/ebox-gpio-led
+- 原理图：https://github.com/xboot/xconch/blob/master/ebox-gpio-led/ebox-gpio-led.pdf
+- PCB文件：https://github.com/xboot/xconch/blob/master/ebox-gpio-led/ebox-gpio-led.kicad_pcb
+- BOM表：https://github.com/xboot/xconch/blob/master/ebox-gpio-led/ebox-gpio-led.csv
+
 ## 讨论组，大佬聚集，请踊跃加入
 神奇海螺QQ群：[658250248](https://jq.qq.com/?_wv=1027&k=5BOkXYO) (2000人)
