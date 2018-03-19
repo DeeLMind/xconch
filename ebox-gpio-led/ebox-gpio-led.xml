@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\workspcace\xconch\ebox-gpio-led\ebox-gpio-led.sch</source>
-    <date>2018/3/19 1:20:43</date>
-    <tool>Eeschema (5.0.0-rc2-dev-107-g49486b83b)</tool>
+    <source>/home/jjj/xboot/xconch/ebox-gpio-led/ebox-gpio-led.sch</source>
+    <date>2018年03月19日 星期一 17时32分44秒</date>
+    <tool>Eeschema 5.0.0-rc2-dev-unknown-827b818~62~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -453,16 +453,16 @@
   </libparts>
   <libraries>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
     <library logical="LED">
-      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+      <uri>/usr/share/kicad/library/LED.lib</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
     </library>
     <library logical="xconch">
-      <uri>C:\workspcace\xconch\ebox-gpio-led/../xconch-kicad-library/symbols/xconch.lib</uri>
+      <uri>/home/jjj/xboot/xconch/ebox-gpio-led/../xconch-kicad-library/symbols/xconch.lib</uri>
     </library>
   </libraries>
   <nets>

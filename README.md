@@ -12,7 +12,7 @@
 
 ## 名称的由来
 
-神奇海螺，源自网友`word天`lymz@foxmail.com(QQ928882442)的网名，只因在激烈的项目取名讨论中，一张惊天图片，高逼格的意境，贴合式奶骑，迅速定论，结束了还在`一个完全开源的，未知项目名称的，有着炫酷外观及超强堆叠扩展性的装逼DIY套件`简介中的混沌态。
+神奇海螺，源自网友`word天`lymz@foxmail.com(QQ928882442)的网名，只因在激烈的项目取名讨论中，一张惊天图片，高逼格的意境，贴合式奶骑，迅速定论，结束了`一个完全开源的，未知项目名称的，有着炫酷外观及超强堆叠扩展性的装逼DIY套件`混沌态描述。
 
 ![magical-conch](https://github.com/xboot/xconch/raw/master/documents/images/magical-conch.png)
 
@@ -59,7 +59,7 @@
 
 ## 神奇海螺授权模式
 
-神奇海螺采用免授权模式，官方不保留任何权利，任何组织及个人可无偿使用神奇海螺的各种成果，包括各种商业用途。神奇海螺LOGO，外观，技术规范，具体平台实现，官方都不保留任何权利，想用就用，想拿就拿，想卖就卖，如果硬是要给这种授权模式定义一个概念的话，那就叫做`阳光授权`吧。
+神奇海螺采用免授权模式，官方不保留任何权利，任何组织及个人可无偿使用神奇海螺的各种成果，包括各种商业用途。神奇海螺LOGO，外观，技术规范，具体平台实现，官方都不保留任何权利，想用就用，想拿就拿，想卖就卖，如果硬是要给这种授权模式定义一个概念的话，那就叫做`阳光授权`吧。`阳光授权`是自保护的，禁止任何组织及个人持有版权、商标、专利等一系列破坏神奇海螺`阳光授权`模式的行为。一旦发生，该组织及个人将不再拥有`阳光授权`所赋予的任何权利，同时该破坏行为自动失效。阳光不属于任何一个人，阳光属于每一个人。
 
 ## 如何加入组织及贡献自己的一份力量
 
@@ -198,7 +198,6 @@ TBD
 - 工程目录: https://github.com/xboot/xconch/tree/master/ebox-i2c-eeprom
 - 原理图：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.pdf
 - PCB文件：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.kicad_pcb
-- BOM表：https://github.com/xboot/xconch/blob/master/ebox-i2c-eeprom/ebox-i2c-eeprom.csv
 
 ### GPIO LED扩展盒
 
@@ -209,7 +208,6 @@ TBD
 - 工程目录: https://github.com/xboot/xconch/tree/master/ebox-gpio-led
 - 原理图：https://github.com/xboot/xconch/blob/master/ebox-gpio-led/ebox-gpio-led.pdf
 - PCB文件：https://github.com/xboot/xconch/blob/master/ebox-gpio-led/ebox-gpio-led.kicad_pcb
-- BOM表：https://github.com/xboot/xconch/blob/master/ebox-gpio-led/ebox-gpio-led.csv
 
 ## 讨论组，大佬聚集，请踊跃加入
 神奇海螺QQ群：[658250248](https://jq.qq.com/?_wv=1027&k=5BOkXYO) (2000人)
