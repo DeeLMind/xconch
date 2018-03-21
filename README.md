@@ -47,7 +47,7 @@
 | 宁以远        | 800636     |
 | 火龙果Geek    | 1136632326 |
 
-## 神奇海螺LOGO（临时放个，需要更换）
+## [神奇海螺LOGO](https://raw.githubusercontent.com/xboot/xconch/master/documents/images/logo.svg)
 
 ![logo](https://github.com/xboot/xconch/raw/master/documents/images/logo.png)
 
@@ -70,6 +70,7 @@
 | 网名         | QQ         |
 | ---------- | ---------- |
 | XBOOT         | 8192542    |
+| Mpax | 530465617 |
 
 ## 结构总体设计
 
