@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AXP203
+D Enhanced single Cell Li-Battery and Power System Management IC
+K Enhanced single Cell Li-Battery and Power System Management IC
+$ENDCMP
+#
+$CMP V3S
+D The Allwinner V3s processor which integrates a single ARM Cortex-A7 CPU that operates at speed up to 1.2GHz with supporting numerous peripherals.
+K The SOC of allwinner v3s  using ARM cortex-a7
+F http://linux-sunxi.org/images/2/23/Allwinner_V3s_Datasheet_V1.0.pdf
+$ENDCMP
+#
 $CMP xconch_pinheader_2x40
 D xconch pinheader connect 2x40
 K connect
