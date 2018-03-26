@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0-rc2-dev-107-g49486b83b)*
-G04 #@! TF.CreationDate,2018-03-22T00:14:22+08:00*
+G04 #@! TF.CreationDate,2018-03-27T00:01:31+08:00*
 G04 #@! TF.ProjectId,ebox-i2c-eeprom,65626F782D6932632D656570726F6D2E,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Bot*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.0-rc2-dev-107-g49486b83b)) date 03/22/18 00:14:22*
+G04 Created by KiCad (PCBNEW (5.0.0-rc2-dev-107-g49486b83b)) date 03/27/18 00:01:31*
 %MOMM*%
 %LPD*%
 G01*
