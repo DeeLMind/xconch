@@ -190,6 +190,15 @@ TBD
 
 ## 硬件详细设计
 
+### 基础排针扩展盒
+
+![ebox-basic-top](https://github.com/xboot/xconch/raw/master/documents/images/ebox-basic-top.png)
+
+![ebox-basic-bottom](https://github.com/xboot/xconch/raw/master/documents/images/ebox-basic-bottom.png)
+- 工程目录: https://github.com/xboot/xconch/tree/master/ebox-basic
+- 原理图：https://github.com/xboot/xconch/blob/master/ebox-basic/ebox-basic.pdf
+- PCB文件：https://github.com/xboot/xconch/blob/master/ebox-basic/ebox-basic.kicad_pcb
+
 ### I2C EEPROM非易失性存储器扩展盒
 
 ![ebox-i2c-eeprom-top](https://github.com/xboot/xconch/raw/master/documents/images/ebox-i2c-eeprom-top.png)
