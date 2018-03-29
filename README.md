@@ -199,6 +199,15 @@ TBD
 - 原理图：https://github.com/xboot/xconch/blob/master/ebox-basic/ebox-basic.pdf
 - PCB文件：https://github.com/xboot/xconch/blob/master/ebox-basic/ebox-basic.kicad_pcb
 
+### 高级排针扩展盒
+
+![ebox-advanced-top](https://github.com/xboot/xconch/raw/master/documents/images/ebox-advanced-top.png)
+
+![ebox-advanced-bottom](https://github.com/xboot/xconch/raw/master/documents/images/ebox-advanced-bottom.png)
+- 工程目录: https://github.com/xboot/xconch/tree/master/ebox-advanced
+- 原理图：https://github.com/xboot/xconch/blob/master/ebox-basic/ebox-advanced.pdf
+- PCB文件：https://github.com/xboot/xconch/blob/master/ebox-basic/ebox-advanced.kicad_pcb
+
 ### I2C EEPROM非易失性存储器扩展盒
 
 ![ebox-i2c-eeprom-top](https://github.com/xboot/xconch/raw/master/documents/images/ebox-i2c-eeprom-top.png)
